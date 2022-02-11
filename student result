@@ -1,0 +1,26 @@
+sno=int(input('Enter student no:'))
+sname=input('Enter student name:')
+sgroup=input('Enter student group:')
+sub1=int(input("Enter marks of the first subject: "))
+sub2=int(input("Enter marks of the second subject: "))
+sub3=int(input("Enter marks of the third subject: "))
+sub4=int(input("Enter marks of the fourth subject: "))
+sub5=int(input("Enter marks of the fifth subject: "))
+sub6=int(input("Enter marks of the sixth subject"))
+A=int(sub1+sub2+sub3+sub4+sub5+sub6)
+print("total marks is:",A)
+avg=A/6
+print("avg is:",avg)
+if(avg>=91):
+    print("Grade:O")
+elif(avg>=81&avg<90):
+    print("Grade:A")
+elif(avg>=71&avg<80):
+    print("Grade:B")
+elif(avg>=61&avg<70):
+    print("Grade:C")
+elif(avg>=51&avg<=60):
+    print("Grade:D")
+else:
+    print("Fail")
+
